@@ -1,25 +1,6 @@
-# lib-js-util-task-queue
+'use strict'
 
-The lib supports the following task queues:
-- `TaskQueue` - FIFO task queue
-- `TaskPriorityQueue` - Priority task queue
-
-## Installing
-
-```console
-npm install --save https://github.com/bitfinexcom/lib-js-util-task-queue.git
-```
-
-## Testing
-
-```console
-npm run test
-```
-
-## Usage
-
-```javascript
-const { TaskQueue } = require('@bitfinex/lib-js-util-task-queue')
+const { TaskQueue } = require('../')
 
 const job = async (mts, i, arr) => {
   await new Promise((resolve) => {
@@ -47,7 +28,3 @@ const main = async () => {
 }
 
 main()
-```
-
-## Authors
-- vigan.abd
