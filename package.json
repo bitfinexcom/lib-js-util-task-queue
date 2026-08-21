@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/lib-js-util-task-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bitfinex Lib Utility for Promises",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,11 @@
     "mocha": "^10.0.2",
     "standard": "^17.1.0"
   },
+  "overrides": {
+    "serialize-javascript": "^7.1.0"
+  },
   "dependencies": {
-    "@bitfinex/lib-js-util-promise": "https://github.com/bitfinexcom/lib-js-util-promise#v1.0.0",
+    "@bitfinex/lib-js-util-promise": "^1.1.0",
     "async": "^3.2.4"
   }
 }

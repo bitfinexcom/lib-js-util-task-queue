@@ -1,3 +1,6 @@
+# 1.0.1
+- chore: move git deps to npm
+
 # 1.0.0
 - feature: task promise queue
 - feature: task promise priority queue
