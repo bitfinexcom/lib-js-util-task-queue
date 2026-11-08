@@ -51,7 +51,7 @@ test('pushTask - should support parallel processing as well', { timeout: 10000 }
   promises.push(tq.pushTask(() => job(3000, 1, process), 2))
   promises.push(tq.pushTask(() => job(5000, 2, process), 2))
   promises.push(tq.pushTask(() => job(4000, 3, process), 2))
-  promises.push(tq.pushTask(() => job(1000, 4, process), 2))
+  promises.push(tq.pushTask(() => job(1500, 4, process), 2))
   const res = await Promise.all(promises)
 
   t.alike(res, [1, 2, 3, 4])
