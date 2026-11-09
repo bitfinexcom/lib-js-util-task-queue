@@ -1,6 +1,6 @@
 {
   "name": "@bitfinex/lib-js-util-task-queue",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Bitfinex Lib Utility for Promises",
   "main": "index.js",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/bitfinexcom/lib-js-util-task-queue#readme",
   "dependencies": {
-    "@bitfinex/lib-js-util-promise": "^1.1.0",
+    "@bitfinex/lib-js-util-promise": "git+https://github.com/bitfinexcom/lib-js-util-promise.git#v2.0.0",
     "async": "^3.2.4"
   },
   "devDependencies": {
