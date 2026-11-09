@@ -27,9 +27,6 @@
     "url": "https://github.com/bitfinexcom/lib-js-util-task-queue/issues"
   },
   "homepage": "https://github.com/bitfinexcom/lib-js-util-task-queue#readme",
-  "overrides": {
-    "serialize-javascript": "^7.1.0"
-  },
   "dependencies": {
     "@bitfinex/lib-js-util-promise": "^1.1.0",
     "async": "^3.2.4"
